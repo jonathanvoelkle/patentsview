@@ -1,0 +1,1 @@
+Get-ChildItem .\data\**\*.zip -Recurse | % { Remove-Item $_ }
